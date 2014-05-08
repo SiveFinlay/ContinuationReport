@@ -1,43 +1,62 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage[round]{natbib} % author-year citations in round brackets
-
-%Practice change for git
-
-\usepackage{hyperref}
-
-\raggedright %justify the text on the left only
 \usepackage{enumerate} %put in numbers or bullet points
 \usepackage{setspace}
+\raggedright %justify the text on the left only
+\usepackage{graphicx} 	% For adding pictures
+\usepackage{float}
+\usepackage{pdflscape}	% for landscape pages
+\pagenumbering{arabic}	% Page numbers
+\usepackage{fancyhdr} % add headers and footers
+\usepackage{hyperref} % hyper links for references
+
 \onehalfspacing %1.5 line spacing
+\usepackage[round]{natbib} % author-year citations in round brackets
+
+
 \begin{document}
 
-\title{Steering committee progress report\\
-Provisional thesis title; "Convergence and disparity in the evolution of tenrecs"}
-\author{Sive Finlay}
+\title{Convergence and disparity in the evolution of tenrecs}
+\author{}
+\date{}
 \maketitle
+
+
+%Add a header 
+\renewcommand{\headrulewidth}{0.0pt}
+\thispagestyle{fancy}				%header on the first page only
+\lhead{Sive Finlay, Progress Report}
+\chead{}
+\rhead{May 2014}
+
 
 \section{Introduction}
 My PhD is an investigation of evolutionary patterns in tenrecs (Afrosoricida, Tenrecidae). My aim is to quantify both morphological and ecological diversity within the tenrec family (disparity) and their similarities to other insectivore mammals (convergence). 
-I am now half way through my three year PhD and I have a plan of how my thesis will take shape. I included a provisional thesis outline of 5 chapters in my first year report in November 2013 (see attached document). However, based on the committee's advice that some of the chapters were too large and the fact that my fieldwork experiments did not go according to plan (see section 3 below), I have now modified the thesis plan.  The new plan is to have 7 chapters in my thesis. At least 4 of these chapters will be paper-driven. I have included a draft outline of my first paper, "Cranial morphological disparity within the adaptive radiation of tenrecs (Afrosoricida, Tenrecidae) is no greater than expected by chance" which will comprise my 3rd chapter.
-Here I will outline my current progress and plans for completion of each chapter. 
+I am now half way through my three year PhD and I have a plan of how my thesis will take shape. I included a provisional thesis outline of 5 chapters in my first year report in November 2013 (see attached document). However, based on the committee's advice that some of the chapters were too large and the fact that my fieldwork experiments did not go according to plan (see section 3 below), I have now modified my thesis.  The new plan is to have seven chapters, at least four of which will be paper-driven. I have included a draft outline of my first paper, "Cranial morphological disparity within the adaptive radiation of tenrecs (Afrosoricida, Tenrecidae) is no greater than expected by chance" which will comprise my 3rd chapter.
+In this report I outline my current progress and plans for completion of my papers and each chapter. I include the target date for completion of each paper/ chapter and summarise these targets in a GANNT chart timetable at the end of the report (figure) %\ref{gannt}). 
+
+\newpage
 
 \section{Thesis outline}
 \begin{enumerate}
 \item \textbf{Chapter 1: Introduction}\\
+\textit{To be completed by November 2015 (figure \ref{gannt})}\\
 
 This is a general introductory chapter. I will include brief outlines of convergence and disparity and why they are useful and interesting measures of evolutionary diversity.
-Along with the conclusions (chapter 8), this will be the last chapter that I write because it will be easier to introduce the rest of the thesis once I know how those chapters have taken shape. 
+Along with the conclusions (chapter 7), this will be the last chapter that I write because it will be easier to introduce the rest of the thesis once I know how those chapters have taken shape. 
 
-\item \textbf{Chapter 2: Data collection}
-My thesis will be based on two main data sources; morphological and ecological. The questions addressed in chapters 4, 6 and 7 will all use these same data sources. Therefore, rather than repeating the information in multiple sections, I will combine my data collection methods into this single chapter which I can then refer to in the rest of the thesis. 
-I have collected all of the data and completed most of the writing for the morphological section of this chapter. I haven't started the sections relating to the ecological data but I will work on this aspect as I collect the relevant data over the coming months (see Chapter 7 below).
+\item \textbf{Chapter 2: Data collection}\\
+\textit{To be completed by September 2014 (figure \ref{gannt})}\\
+My thesis will be based on two main data sources; morphological and ecological. The questions addressed in chapters 3, 5 and 6 will all use these same data sources. Therefore, rather than repeating the information in multiple sections, I will combine my data collection methods into this single chapter which I can then refer to in the rest of the thesis. 
+I have collected all of the data and completed most of the writing for the morphological section of this chapter. I haven't started the sections relating to the ecological data but I will work on this aspect as I collect the relevant data over the coming months (see chapter 6 below).
 
 
 %Don't do a separate chapter on methods of measuring disparity; put that information into the start of chapter 3
 
 
 \item \textbf{Chapter 3: Quantifying morphological disparity in tenrecs}\\
-\textit{Target: Journal of Evolutionary Biology or PLoS ONE}\\
+\textit{Journal targets: Journal of Evolutionary Biology, PLoS ONE, Journal of Mammalian Evolution? , submit August 2014. 
+Complete chapter by June 2015 (figure \ref{gannt}}\\
+
 This is the chapter which corresponds to the draft paper that accompanies this report. I have completed the majority of the work for this paper. Given that tenrecs are often cited as an example of a phenotypically diverse group \citep[e.g.][]{Olson2013}, my finding that morphological disparity is no greater than expected by chance was unexpected. Therefore I'm currently checking the code that I used for the calculations and simulation studies to ensure that the results are accurate rather than just artefacts of a fault in the methods. 
 
 %Remember that this meeting will be at the end of May so hopefully I should have these coding checks done by then
@@ -47,7 +66,7 @@ I would very much welcome any comments on the draft paper, particularly if you h
 Dr. Steve Goodman, an expert in tenrec ecology and evolution, has expressed an interest in collaborating on the paper so I will send it to him for comments before submitting to the Journal of Evolutionary Biology.
 
 \item \textbf{Chapter 4: Review of methods of detecting convergence}\\
-\textit{Target: Journal of Evolutionary Biology}
+\textit{Journal target: Journal of Evolutionary Biology, submit June 2015. Complete chapter by September 2015 (figure  \ref{gannt} )}
 
 Convergence is a common evolutionary pattern of historical significance and interest in evolutionary biology because it relates to questions of the relative roles of determinism and contingency in evolution \citep[c.f][]{Blount2008}. Many studies of convergence are purely qualitative descriptions of apparent patterns of similarity among species \citep[e.g.][]{Ben-Moshe2001, Leal2002, Fleischer2008} including recent studies of genomic convergence \citep{Jones2012, Parker2013}. 
 
@@ -69,8 +88,8 @@ I have an outline plan of the chapter and I have already completed an initial li
 %This is a week end to the section, I need to come back and fix it 
 
 
-\item \textbf{Chapter 5: Quantifying morphological convergence among tenrecs and other "insectivore" mammals}
-\textit{Target; Journal of Evolutionary Biology}
+\item \textbf{Chapter 5: Quantifying morphological convergence among tenrecs and other "insectivore" mammals}\\
+\textit{Journal targets; Journal of Evolutionary Biology, PLoS ONE, submit January 2015. Complete chapter by August 2015 (figure \ref{gannt})}
 
 Following on from my review of methods of quantifying convergence (chapter 4) I will apply some of these methods to my data to measure the degree of morphological similarity among tenrecs and other "insectivore" mammals.
 As I described previously in my November 2013 report, I have an extensive morphological data base of tenrecs and the mammals they resemble. I have completed my geometric morphometric analyses of all of the skull and mandible specimens and I have moved onto quantifying convergence.
@@ -83,16 +102,19 @@ I will write these analyses into a paper about the general importance of quantif
 I think that my cranial analyses will be sufficient data for the paper. However, I also have a dataset of limb measurements which a final-year undergraduate is going to analyse for evidence of convergence this year. The results of her project will indicate whether it would be productive for me to include a straightforward analysis of my limb measurements (for example correlations between limb proportions and locomotion style/habitat) in my assessment of convergence.
 
 
-\item \textbf{Chapter 6: Is morphological convergence between tenrecs and other "insectivore" mammals predicted by ecological similarity?}
+\item \textbf{Chapter 6: Is morphological convergence between tenrecs and other "insectivore" mammals predicted by ecological similarity?}\\
+\textit{Possible journals: Journal of Evolutionary Biology,PLoS ONE, submit April 2015. Complete chapter by September 2015 (figure \ref{gannt}) } 
 
 
+\item \textbf{Chapter 7: Conclusions}\\
+\textit{Complete chapter by November 2015 (figure \ref{gannt})}
 
-\item \textbf{Chapter 7: Conclusions}
 This chapter will summarise the importance of taking a quantitative approach to studies of evolutionary diversity (morphological and ecological) among species groups. In particular I will highlight the need to apply existing methods to new groups of species which are not usually not as well studied as groups which are used to develop such metrics. I will also include suggestions for future directions, particularly in the area of addressing the functional importance rather than pure description of convergent traits (put in the Losos reference here). I could also include mention my unsuccessful fieldwork experiments here (see below) as another potential basis for future work. 
 
 \end{enumerate}
 
 \section{Unsuccessful fieldwork for testing behavioural convergence}
+
 In my November 2013 report I outlined my plans for incorporating tests of behavioural convergence into my project. I was interested in whether early reports of an ability to echolocate in some tenrecs \citep{Gould1965} may be extended to other species of the \textit{Microgale} (shrew-type) tenrecs and therefore provide evidence of behavioural convergence between tenrecs and shrews \citep{Siemers2009}. Natalie and I went to Madagascar in March/April as part of a research trip led by Dr.Steve Goodman to conduct behavioural tests of echolocation in \textit{Microgale}. Our aim was to record the sounds made by the animals as they moved through a wooden maze towards a food reward to determine whether there was evidence that they were using sounds to navigate through their environment. We tried multiple variations of our protocol but unfortunately none of the animals we tested produced any noise (17 individuals from 5 different species). It is clear that this negative result is a failure of our experiment rather than an indication that \textit{Microgale} don't navigate using sounds. Our sample included \textit{Microgale dobsoni} which are one of the few species which are known to echolocate from previous experiments \citep{Gould1965}. Similarly, other more experienced researchers in the group had heard the \textit{Microgale} making sounds while foraging. Previous studies of echolocation in small mammals \citep{Gould1964, Gould1965, Tomasi1979, Siemers2009} all used captive individuals which were trained to perform specific tasks. Such a prolonged procedure was not possible wihtin our constraints of time and facilities.
 
 Given that I have no useable data to address my questions of behavioural convergence it is not enough information for a complete chapter. I could mention the experiments briefly in my concluding chapter as an idea for further directions. Alternatively, I could leave these investigations of behavioural convergence out of the thesis altogether to avoid detracting from my more general studies of morphological and ecological (dis)similarities among species.
@@ -114,8 +136,17 @@ So far I have reviewed a journal article (International Journal of Primatology) 
 
 \end{enumerate}
 
-\section{Timeline for PhD completion}
-Put in the GANNT chart here
+
+\begin{landscape}
+\begin{figure}[p]
+\centering
+\includegraphics[keepaspectratio=true]{Gannt+key.png}
+\caption{Timeline for completion of my PhD, tasks are colour coded following the accompanying key}
+\label{gannt}
+\end{figure}
+\end{landscape}
+
+
 
 \bibliographystyle{jeb}
 \bibliography{Refs_01_05_14_edited} %This is my edited JabRef file of all my references exported from EndNote. I had to edit the formatting for the special characters, capital letters and also change the file encoding.
